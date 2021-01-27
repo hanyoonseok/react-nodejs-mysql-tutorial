@@ -32,7 +32,7 @@ function App() {
       }}/>
       <button onClick={submitReview}>submit</button>
       {movieReviewList.map((val)=>{
-        return <h1>MovieName:{val.movieName} | Movie Review: {val.movieReview}</h1>
+        return <h1>ㅋMovieName:{val.movieName} | Movie Review: {val.movieReview}</h1>
       })}
     </div>
   );
